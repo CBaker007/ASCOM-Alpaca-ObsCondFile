@@ -1,0 +1,45 @@
+title = "Alpaca Sample Driver (ObservingConditions)"
+
+[network]
+ip_address = ''             # Any address
+port = 5555
+
+[server]
+location = 'Utah Desert Remote Observatory'  # Anything you want here
+verbose_driver_exceptions = true
+
+[device]
+weather_data_file = 'C:\Users\LocalAdmin\Desktop\test\sageweatherdata.txt'
+weather_data_cache_timeout = 60  # Must be > 60, recommend 120+ How often to re-read the weather data file in seconds. Don't keep re-reading if data only updated every X minutes.
+sensor_cloud_avail = true
+sensor_dew_avail = true      # Also used for humity because both required to be same
+sensor_pres_avail = false
+sensor_rain_avail = true
+sensor_skyb_avail = false
+sensor_skyq_avail = false
+sensor_skyt_avail = true
+sensor_star_avail = false
+sensor_temp_avail = true
+sensor_windd_avail = false
+sensor_windg_avail = false
+sensor_winds_avail = true
+sensor_cloud_desc = 'The percentage of the sky obscured by cloud (%).'
+sensor_dew_desc = 'The atmospheric dew point at the observatory reported in °C.'
+sensor_hum_desc = 'The atmospheric humidity (%) at the observatory.'
+sensor_pres_desc = 'The atmospheric pressure in hectoPascals at the observatory altitude - NOT reduced to sea level.'
+sensor_rain_desc = 'The rain rate (mm/hour) at the observatory.'
+sensor_skyb_desc = 'The sky brightness at the observatory (Lux)'
+sensor_skyq_desc = 'The sky quality at the observatory (magnitudes per square arc second)'
+sensor_skyt_desc = 'The sky temperature (°C) at the observatory.'
+sensor_star_desc = 'The seeing at the observatory measured as star full width half maximum (FWHM) in arc secs.'
+sensor_temp_desc = 'The ambient temperature (°C) at the observatory.'
+sensor_windd_desc = 'The wind direction in degrees, 0.0 and 360.0 measured clockwise from north where East=90.0.'
+sensor_windg_desc = 'The peak 3 second wind gust (m/s) at the observatory over the last 2 minutes.'
+sensor_winds_desc = 'The wind speed(m/s) at the observatory.'
+
+[logging]
+log_filename = 'observcond.log'
+log_level = 'INFO' # INFO, DEBUG, etc.
+log_to_stdout = false
+max_size_mb = 5
+num_keep_logs = 5

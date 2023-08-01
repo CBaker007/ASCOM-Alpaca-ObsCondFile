@@ -1,0 +1,23 @@
+* FileWriteDate (date in yyyy-mm-dd)
+* FileWriteTime (time in hh:mm:ss.ss )
+* TempScale (string)  [C or F]
+* WindSpeedScale (float)  [Mph or Knots]
+* SkyTemp (float)
+* AmbientTemp (float)
+* SensorTemp (float)
+* WindSpeed (float)
+* Humidity (float)
+* DewPoint (float)
+* DewHeaterPrcnt (float)
+* RainFlag (int)
+* WetFlag (int)
+* ElapsedTimeLastFileWrite (float)
+* ElapsedDaysLastFileWrite (float)
+* CloudFlag (int)  [1=Clear, 2=Light Clouds, 3=Very Cloudy]
+* WindFlag (int)  [1=Calm, 2=Windy, 3=Very Windy]
+* RainFlag2 (int)  [1=Dry, 2=Damp, 3=Rain]
+* DarknessFlag (int)  [1=Dark, 2=Dim, 3=Daylight]
+* RoofClosedFlag (bool)
+* SafeFlag (int)  [0=Safe, 1=UnSafe]
+
+
