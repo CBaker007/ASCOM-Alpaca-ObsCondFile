@@ -1,13 +1,13 @@
 # ASCOM-Alpaca-ObsCondFile
 An ASCOM Alpaca Observing Conditions device that reads data from a Boltwood formatted file.
 
-****  Process to Install and Use Driver  ****
-*********************************************
+Process to Install and Use Driver
+*********************************
 COMING SOON!!!
 
 
-****  Process to Setup for Modding Code  ****
-*********************************************
+Process to Setup for Modding Code
+*********************************
 
 Download and install the latest ConformU tester for Windows (needed for testing Alpaca driver only):
 - https://github.com/ASCOMInitiative/ConformU/releases
